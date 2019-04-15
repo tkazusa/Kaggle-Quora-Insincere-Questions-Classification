@@ -30,3 +30,6 @@ go install github.com/kahing/goofys
 # S3をマウント
 su ec2-user -c /home/ec2-user/SageMaker/go/bin/goofys quora-insincere-questions-classification ~/SageMaker/goofys-mount/
 ```
+
+
+https://gink03.github.io/goofys/
