@@ -4,6 +4,11 @@
 Download kaggle.json and place in the location: ~/.kaggle/kaggle.json.
 See details: https://github.com/Kaggle/kaggle-api
 
+### Build Docker image
+```
+docker-compose build
+```
+
 ### Download and unzip datasets from competition page
 ```
 docker-compose run cpu kaggle competitions download quora-insincere-questions-classification -p input
